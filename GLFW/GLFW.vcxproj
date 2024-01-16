@@ -116,7 +116,11 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GLEW_STATIC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>src;src\vendor;$(SolutionDir)Dependencies\include;$(SolutionDir)Dependencies\GLEW\include</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>src\vendor;$(SolutionDir)Dependencies\include;$(SolutionDir)Dependencies\GLEW\include</AdditionalIncludeDirectories>
+>>>>>>> 0487232a7ef003e23b77ada6c1e4c150b5fb945c
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
