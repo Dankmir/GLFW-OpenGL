@@ -1,2 +1,12 @@
 ﻿  Application.cpp
-  GLFW.vcxproj -> D:\Projectz\GLFW\GLFW-OpenGL\x64\Debug\GLFW.exe
+  IndexBuffer.cpp
+  Renderer.cpp
+  Shader.cpp
+  Texture.cpp
+  VertexArray.cpp
+D:\Documents\OpenGL\GLFW-OpenGL\GLFW\src\VertexArray.cpp(26,3): warning C4312: 'type cast': conversion from 'unsigned int' to 'const void *' of greater size
+  VertexBuffer.cpp
+  Test.cpp
+  TestClearColor.cpp
+  Generating Code...
+  GLFW.vcxproj -> D:\Documents\OpenGL\GLFW-OpenGL\x64\Debug\GLFW.exe
