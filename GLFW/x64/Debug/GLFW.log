@@ -1,12 +1,10 @@
 ﻿  Application.cpp
-  IndexBuffer.cpp
-  Renderer.cpp
-  Shader.cpp
-  Texture.cpp
-  VertexArray.cpp
-D:\Documents\OpenGL\GLFW-OpenGL\GLFW\src\VertexArray.cpp(26,3): warning C4312: 'type cast': conversion from 'unsigned int' to 'const void *' of greater size
-  VertexBuffer.cpp
-  Test.cpp
-  TestClearColor.cpp
+  TestTexture2D.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(3465,56): warning C4244: 'argument': conversion from '_Ty' to 'unsigned int', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+D:\Documents\OpenGL\GLFW-OpenGL\GLFW\src\tests\TestTexture2D.cpp(35,25): message : see reference to function template instantiation 'std::unique_ptr<VertexBuffer,std::default_delete<VertexBuffer>> std::make_unique<VertexBuffer,float(&)[16],unsigned __int64,0>(float (&)[16],unsigned __int64 &&)' being compiled
   Generating Code...
   GLFW.vcxproj -> D:\Documents\OpenGL\GLFW-OpenGL\x64\Debug\GLFW.exe
