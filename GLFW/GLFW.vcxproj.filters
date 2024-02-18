@@ -20,6 +20,7 @@
     <ClCompile Include="src\VertexBuffer.cpp" />
     <ClCompile Include="src\VertexBufferLayout.cpp" />
     <ClCompile Include="src\tests\TestTexture2D.cpp" />
+    <ClCompile Include="src\tests\TestCube.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\IndexBuffer.h" />
@@ -42,9 +43,12 @@
     <ClInclude Include="src\VertexBuffer.h" />
     <ClInclude Include="src\VertexBufferLayout.h" />
     <ClInclude Include="src\tests\TestTexture2D.h" />
+    <ClInclude Include="src\tests\TestCube.h" />
+    <ClInclude Include="src\Camera.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\shaders\Basic.shader" />
+    <None Include="res\shaders\Cube.shader" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\textures\image.png" />
